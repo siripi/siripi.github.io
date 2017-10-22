@@ -1,0 +1,44 @@
+nav {
+	background-color:saddlebrown;
+
+}
+
+.navbar-brand.siri-title{
+	color: white;
+}
+/*.navbar-light .navbar-nav .nav-link{
+	color: white;
+}*/
+.nav-item .nav-link.nav-menu-item{
+	color: white;
+}
+
+body{
+	background: url("../images/world.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+/*.bgimage{
+	width: 100vw;
+}*/
+.title-text{
+	font-size: 96px;
+	font-family: Helvatica;
+	color: black;
+	margin-top: 35vh;
+	padding-right: 15vh;
+	padding-left: 15vh;
+	text-align: center;
+}
+
+.about-btn {
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	color: brown;
+}
+
+.hel {
+	color: beige;
+}
+
+

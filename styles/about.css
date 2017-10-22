@@ -1,0 +1,41 @@
+/*.freeworld{
+	margin: 10px 20px;
+	height: 400px;
+	width: 300px;
+	border: black 5px solid;
+	float:left;
+}
+h1{
+	position: relative;
+	margin-top: 200px;
+	font-size: 32px;
+	text-align: center;
+}
+*/
+body{
+	background-color: beige;
+}
+
+.profile-pic{
+    max-width: 100%;
+	/*border: black 2px solid;*/
+
+}
+.card-text {
+	font-size: 13.5px;
+	padding: 0 10px;
+	font-style: italic;
+	font-family: Helvatica; 
+}
+
+.icon {
+	color: black;
+	margin: 0 2px;
+}
+
+.card {
+	margin-top: 50px;
+}
+.card-title {
+	padding: 5px 10px 0 10px;
+}
