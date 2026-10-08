@@ -1,0 +1,2007 @@
+{
+  "title": "Build your own Agentic GTM: Part 1",
+  "subtitle": "Your company brief, two account pages and a reusable skill.",
+  "version": "Part 1 participant edition",
+  "source_note": "Henry independently completed Part 1 with Claude Code for Datadog and Okta. His feedback drives this edition. Start with the prepared project, supply company context, then run one step at a time. Gil's four steps remain: skills, execution flow, target accounts, ten-account test. Each session has 90 guided minutes including a five-minute break and 30 minutes of individual help. Live outreach needs the attendee's own sender, current records, paid email validation and exact approval. Social, gifts, advertising and unattended operation are optional extensions. Private production records and credentials are excluded. Company-wide outcomes are separate from engine proof.",
+  "parts": [
+    {
+      "id": "part-1",
+      "part": 1,
+      "title": "Build two account pages and save the skill.",
+      "minutes": 120,
+      "guided_minutes": 90,
+      "help_minutes": 20,
+      "prerequisites": [
+        "Install or open local Codex or Claude Code with file and web access.",
+        "Run git clone https://github.com/f-o-x11/agentic-gtm-workshop.git. Open agentic-gtm-workshop as the project; run later commands from code/.",
+        "Use your website, buyer segment, offer and two real target domains. If unsure, the agent asks only for missing information.",
+        "Python is checked by the launcher. If no supported Python exists, use its named official installer.",
+        "No Google Cloud project, research API or paid channel is needed for Part 1."
+      ],
+      "finish": [
+        "Your company facts and paused operating instructions.",
+        "Two sourced target briefs and two reviewed, unpublished pages.",
+        "One saved page skill successfully reused.",
+        "A progress record and the exact next setup task."
+      ],
+      "slides": [
+        {
+          "id": "p1-cover",
+          "part": 1,
+          "title": "Build your own Agentic GTM",
+          "type": "cover",
+          "timing": 0,
+          "minutes": 0,
+          "difficulty": "Watch",
+          "visual_type": "cover",
+          "visual_data": {
+            "image": "assets/workshop-cover.png"
+          },
+          "body": "Part 1. Build two pages for your target companies.",
+          "steps": [],
+          "prompt": "",
+          "tools": [
+            "Dated Metadata results. No credits."
+          ],
+          "expected": [],
+          "check": [],
+          "fallback": "",
+          "repair_prompt": "",
+          "sources": [],
+          "notes": "Use the booklet cover illustration. Show one clear outcome. The booklet, full prompts and code are in the same workshop folder.",
+          "build_step": 0,
+          "prompt_label": "",
+          "route": "main",
+          "next_id": "",
+          "next_action": "",
+          "chapter": 1,
+          "chapter_title": "See Metadata's working examples"
+        },
+        {
+          "id": "p1-results",
+          "part": 1,
+          "title": "This is how I built Metadata's GTM motion",
+          "type": "show",
+          "timing": 3,
+          "minutes": 3,
+          "difficulty": "Watch",
+          "visual_type": "metrics",
+          "visual_data": {
+            "metrics": [
+              {
+                "value": "93",
+                "label": "Demo requests"
+              },
+              {
+                "value": "64",
+                "label": "Booked meetings"
+              },
+              {
+                "value": "34",
+                "label": "Completed meetings"
+              }
+            ],
+            "date": "September 30, 2026",
+            "scope": "Company totals since August 17, measured September 30, 2026. This workflow's share is unverified.",
+            "image": "assets/actual-outcomes.png",
+            "first_instruction": "git clone https://github.com/f-o-x11/agentic-gtm-workshop.git"
+          },
+          "body": "Run git clone https://github.com/f-o-x11/agentic-gtm-workshop.git. Open the folder in local Codex or Claude Code. Keep the booklet open. Each prompt is embedded.",
+          "steps": [],
+          "prompt": "",
+          "tools": [
+            "Dated Metadata results. No credits."
+          ],
+          "expected": [
+            "Understand what was observed and what was built."
+          ],
+          "check": [
+            "Keep company totals separate from the ten-account engine pilot."
+          ],
+          "fallback": "",
+          "repair_prompt": "",
+          "sources": [
+            {
+              "label": "September 30 company dashboard and September 16 pilot",
+              "url": "sources/V5-WORKSHOP-SOURCES.md",
+              "date": "October 5, 2026",
+              "scope": "Different dates, populations and outcomes."
+            }
+          ],
+          "notes": "Slide 2. Keep dated company totals distinct from the engine test. Run the clone command, then open the local folder, booklet and full-prompt helper. Explain the structure on slide 3 before showing detailed outputs.",
+          "build_step": 0,
+          "prompt_label": "",
+          "route": "main",
+          "next_id": "",
+          "next_action": "",
+          "chapter": 1,
+          "chapter_title": "See Metadata's working examples"
+        },
+        {
+          "id": "p1-v5-tree",
+          "part": 1,
+          "title": "The workflow I run at Metadata",
+          "type": "show",
+          "timing": 3,
+          "minutes": 3,
+          "difficulty": "Watch",
+          "visual_type": "tree",
+          "visual_data": {
+            "nodes": [
+              "Read history",
+              "Research and select",
+              "Prepare exact actions",
+              "Refresh current checks",
+              "Email",
+              "Gift",
+              "LinkedIn",
+              "Save provider result",
+              "Read replies and bookings",
+              "Choose next useful step"
+            ],
+            "branches": [
+              [
+                "Prepare exact actions",
+                "Email"
+              ],
+              [
+                "Prepare exact actions",
+                "Gift"
+              ],
+              [
+                "Prepare exact actions",
+                "LinkedIn"
+              ]
+            ],
+            "lanes": [
+              {
+                "owner": "Codex",
+                "nodes": [
+                  "Read history",
+                  "Research and select",
+                  "Prepare exact actions",
+                  "Choose next useful step"
+                ]
+              },
+              {
+                "owner": "Terminal command",
+                "nodes": [
+                  "Refresh current checks",
+                  "Email",
+                  "Gift",
+                  "LinkedIn",
+                  "Save provider result",
+                  "Read replies and bookings"
+                ]
+              }
+            ],
+            "stop": [
+              "Owner paused",
+              "Recipient excluded",
+              "Provider result unknown"
+            ],
+            "caption": "October 5 source diagram. Twelve checks stay inside the workflow. Selection and writing belong to Codex.",
+            "inline_checks": [
+              "Owner pause and approved scope",
+              "Owned sender or channel resources",
+              "Company and permitted country",
+              "Current person and job",
+              "Valid email for email and gifts",
+              "Customers and open deals",
+              "Opt-outs and relationships",
+              "Replies and active bookings",
+              "Prior attempt in this channel",
+              "Exact copy and gift terms",
+              "Provider capacity and funding",
+              "Reserve once; read unknown results"
+            ]
+          },
+          "body": "Your agent researches buyers and prepares work. The local program checks the recipient, performs an approved action and records the provider result.",
+          "steps": [],
+          "prompt": "",
+          "tools": [
+            "Codex and your workshop project."
+          ],
+          "expected": [],
+          "check": [],
+          "fallback": "",
+          "repair_prompt": "",
+          "sources": [
+            {
+              "label": "v5-orchestrator skill; engine/scheduler.py; engine/checks.py",
+              "url": "sources/V5-WORKSHOP-SOURCES.md",
+              "date": "October 5, 2026",
+              "scope": "Selection and writing belong to Codex. Each channel runs independently."
+            }
+          ],
+          "notes": "Trace the actual preparation, checks and channel readback. Today attendees build the account page and its reusable instructions. Do not imply every channel is taught in Part 1.",
+          "build_step": 0,
+          "prompt_label": "",
+          "route": "main",
+          "next_id": "",
+          "next_action": "",
+          "chapter": 1,
+          "chapter_title": "See Metadata's working examples"
+        },
+        {
+          "id": "p1-about",
+          "part": 1,
+          "title": "Hi, I'm Gil.",
+          "type": "show",
+          "timing": 2,
+          "minutes": 2,
+          "difficulty": "Watch",
+          "visual_type": "example",
+          "visual_data": {
+            "portrait": "assets/gil-linkedin.jpg",
+            "bio_lines": [
+              "Running paid campaigns meant repeating the same work across tools. I started Metadata to automate it.",
+              "Today we’ll build the first piece of your own GTM workflow."
+            ],
+            "bio_source": "https://gilallouche.com/",
+            "photo_source": "https://www.linkedin.com/in/gilallouche/",
+            "background": "Software engineer turned VP of Marketing.",
+            "story_source": "https://gilallouche.com/",
+            "linkedin_url": "https://www.linkedin.com/in/gilallouche/",
+            "linkedin_qr": "assets/gil-linkedin-qr.png",
+            "logos": [
+              {
+                "name": "IBM",
+                "image": "assets/customer-logos/ibm.png",
+                "source": "https://metadata.io/images/customers/ibm.png",
+                "sha256": "2074b25834439c992a7f4b632a230a72ebd942830de133e8a2bb18a99fce20cf"
+              },
+              {
+                "name": "Cisco",
+                "image": "assets/customer-logos/cisco.png",
+                "source": "https://metadata.io/images/customers/cisco.png",
+                "sha256": "3effe4cd33697d457f1d70f879b8cde72bf7da5e45e27624071bd41025ef5af8"
+              },
+              {
+                "name": "Brex",
+                "image": "assets/customer-logos/brex.png",
+                "source": "https://metadata.io/images/customers/brex.png",
+                "sha256": "641d56f45caaebfa8c19917a72aed2553c6dca15b78ac73b0002824472f80752"
+              },
+              {
+                "name": "Notion",
+                "image": "assets/customer-logos/notion.png",
+                "source": "https://metadata.io/images/customers/notion.png",
+                "sha256": "f7a84d651a8c129388769b979e8a6cc42c369f9fc4cba60d3bf3fe144700c1f8"
+              },
+              {
+                "name": "Reddit",
+                "image": "assets/customer-logos/reddit.png",
+                "source": "https://metadata.io/images/customers/reddit.png",
+                "sha256": "2417d645b60c3edfa319dfad1437857648f854bb846ae946c6f059e8bc4002cf"
+              },
+              {
+                "name": "Maxio",
+                "image": "assets/customer-logos/maxio.png",
+                "source": "https://metadata.io/images/customers/maxio.png",
+                "sha256": "8015ee59c9fcaeb42089c1cfd2cf17b77f3a28be731fc563cc02e91d13eab1f9"
+              },
+              {
+                "name": "Vercel",
+                "image": "assets/customer-logos/vercel.png",
+                "source": "https://metadata.io/images/customers/vercel.png",
+                "sha256": "4d6c98bb0db13875ea7633ca51399cc38762dc1af0bc0471148719ce0ff0251a"
+              },
+              {
+                "name": "Checkr",
+                "image": "assets/customer-logos/checkr.png",
+                "source": "https://metadata.io/images/customers/checkr.png",
+                "sha256": "c9ef35b7d58b48ae1792e76eb9ab8cfe0dba47ae0b3681f41d764ce2f8312d6a"
+              },
+              {
+                "name": "Cvent",
+                "image": "assets/customer-logos/cvent.png",
+                "source": "https://metadata.io/images/customers/cvent.png",
+                "sha256": "50a6b1930593449bb63aebbbdc2d4c6abac2dac7ee07e5085957400d49a2672b"
+              }
+            ],
+            "logos_source": "https://metadata.io/"
+          },
+          "body": "Software engineer turned VP of Marketing. Running paid campaigns meant repeating the same work across tools. I started Metadata to automate it. Today we’ll build the first piece of your own GTM workflow.",
+          "steps": [],
+          "prompt": "",
+          "tools": [
+            "Dated Metadata results. No credits."
+          ],
+          "expected": [],
+          "check": [],
+          "fallback": "",
+          "repair_prompt": "",
+          "sources": [
+            {
+              "label": "Founder story and background",
+              "url": "https://gilallouche.com/",
+              "scope": "Published founder story, cross-checked with investor founder profile."
+            },
+            {
+              "label": "Original homepage logos",
+              "url": "https://metadata.io/",
+              "scope": "Nine unchanged homepage image files. No current-customer claim."
+            },
+            {
+              "label": "LinkedIn profile",
+              "url": "https://www.linkedin.com/in/gilallouche/",
+              "scope": "Follow link and QR destination."
+            }
+          ],
+          "notes": "Keep the introduction to two minutes. Explain the move from software engineering into marketing and why Metadata was started. Invite people to follow on LinkedIn. Logos are featured on our homepage.",
+          "build_step": 0,
+          "prompt_label": "",
+          "route": "main",
+          "next_id": "",
+          "next_action": "",
+          "chapter": 1,
+          "chapter_title": "See Metadata's working examples"
+        },
+        {
+          "body": "",
+          "prompt": "",
+          "fallback": "",
+          "repair_prompt": "",
+          "notes": "",
+          "prompt_label": "",
+          "next_id": "",
+          "next_action": "",
+          "id": "p1-you",
+          "part": 1,
+          "title": "You",
+          "type": "audience",
+          "timing": 0,
+          "minutes": 0,
+          "difficulty": "Watch",
+          "visual_type": "audience",
+          "visual_data": {},
+          "steps": [],
+          "tools": [],
+          "expected": [],
+          "check": [],
+          "sources": [
+            {
+              "label": "Workshop registrants",
+              "url": "https://luma.com/agentic-gtm",
+              "date": "October 8, 2026",
+              "scope": "Professional profiles appear only in the password-protected edition."
+            }
+          ],
+          "build_step": 0,
+          "route": "main",
+          "chapter": 1,
+          "chapter_title": "See Metadata's working examples"
+        },
+        {
+          "id": "p1-glossary",
+          "part": 1,
+          "title": "Words you’ll use today",
+          "type": "show",
+          "timing": 2,
+          "minutes": 2,
+          "difficulty": "Watch",
+          "visual_type": "diagram",
+          "visual_data": {
+            "terms": [
+              {
+                "word": "Coding agent",
+                "meaning": "Codex or Claude Code, working with files on your computer."
+              },
+              {
+                "word": "Company brief",
+                "meaning": "A saved description of your product, buyers, offer and source-backed proof."
+              },
+              {
+                "word": "Skill",
+                "meaning": "A saved set of instructions your agent can reuse, such as building an account page."
+              },
+              {
+                "word": "Execution flow",
+                "meaning": "The order of work and the conditions for continuing or stopping."
+              },
+              {
+                "word": "Runtime",
+                "meaning": "The local program that checks prepared actions and records results."
+              },
+              {
+                "word": "API",
+                "meaning": "A connection that lets a program use a tool, such as Loop & Tie."
+              },
+              {
+                "word": "API key",
+                "meaning": "A private password for that connection."
+              },
+              {
+                "word": "MCP",
+                "meaning": "A connection that lets your agent use an app’s tools from the conversation."
+              },
+              {
+                "word": "OAuth",
+                "meaning": "A browser sign-in that grants specific account access."
+              },
+              {
+                "word": "Authority",
+                "meaning": "The exact actions, recipients and spending you have approved."
+              },
+              {
+                "word": "Exclusion",
+                "meaning": "A company or person the workflow must not contact."
+              },
+              {
+                "word": "Action key",
+                "meaning": "The saved identifier for one exact prepared action."
+              },
+              {
+                "word": "Self-test",
+                "meaning": "One exact email to your own authorized sender."
+              },
+              {
+                "word": "Receipt",
+                "meaning": "A saved response or native record showing what actually happened."
+              },
+              {
+                "word": "Held",
+                "meaning": "Stopped because a required fact, connection or approval is missing."
+              },
+              {
+                "word": "Reconcile",
+                "meaning": "Read the original provider result without sending another copy."
+              },
+              {
+                "word": "Queued",
+                "meaning": "Waiting with the provider. It has not yet been confirmed sent."
+              },
+              {
+                "word": "Booked",
+                "meaning": "A meeting reservation. It does not show attendance."
+              }
+            ],
+            "today": [
+              "Coding agent",
+              "Company brief",
+              "Skill",
+              "Execution flow",
+              "API",
+              "MCP"
+            ]
+          },
+          "body": "",
+          "steps": [],
+          "prompt": "",
+          "tools": [
+            "Reference only. No account or credits needed."
+          ],
+          "expected": [],
+          "check": [],
+          "fallback": "",
+          "repair_prompt": "",
+          "sources": [],
+          "notes": "",
+          "build_step": 0,
+          "prompt_label": "",
+          "route": "main",
+          "next_id": "",
+          "next_action": "",
+          "chapter": 1,
+          "chapter_title": "See Metadata's working examples"
+        },
+        {
+          "id": "p1-real-outputs",
+          "part": 1,
+          "title": "Zuora: the page, the email, the gift",
+          "type": "show",
+          "timing": 4,
+          "minutes": 4,
+          "difficulty": "Watch",
+          "visual_type": "screenshot",
+          "visual_data": {
+            "image": "assets/zuora-live-full.png",
+            "page_url": "https://demo.metadata.io/zuora/",
+            "email_image": "assets/zuora-email-redacted.png",
+            "email": {
+              "subject": "13 tools one gap",
+              "date": "August 16, 2026",
+              "from": "Gil at Metadata",
+              "to": "Recipient hidden",
+              "excerpt": [
+                "So I had my team build Zuora a working account: a custom commercial, live audiences, and sample campaigns across LinkedIn, Google, and Meta, plus X, Reddit, Bing, ChatGPT, and CTV.",
+                "Take a look: go.metadataone.com/zuora",
+                "I also sent you something small through Loop & Tie. Hope you enjoy it."
+              ],
+              "full_text": "[Recipient name hidden],\n\nI'm Gil, founder/CEO of Metadata. We run paid for Zoom and Notion - and in your space, Maxio and FloQast.\n\nOur research shows 13 adtech tools on your site and a 67-person marketing org. You clearly invest in demand. So I had my team build Zuora a working account: a custom commercial, live audiences, and sample campaigns across LinkedIn, Google, and Meta, plus X, Reddit, Bing, ChatGPT, and CTV.\n\nTake a look: go.metadataone.com/zuora\n\nI also sent you something small through Loop & Tie. Hope you enjoy it.\n\nOpen to a quick walkthrough next week? I'll work around your schedule.\n\nGil\n[Phone hidden] | My LinkedIn https://linkedin.com/in/gilallouche\n\n[Postal address hidden]. Prefer I not reach out again? Just reply and I'll take you off my list.",
+              "verification": "Gmail Sent label checked. Original text, personal details hidden. Screenshot layout recreated.",
+              "page_url": "https://demo.metadata.io/zuora/"
+            },
+            "gift_label": "Gift invitation mockup",
+            "gift_text": "I also sent you something small through Loop & Tie. Hope you enjoy it.",
+            "caption": "Email sent August 16, 2026. Page shown is the current version. Gift card is a mockup.",
+            "gift_mock_copy": {
+              "heading": "A gift from Gil at Metadata",
+              "text": "Pick something you’ll enjoy."
+            }
+          },
+          "body": "Open the real page. Read the email I sent. See how a gift invitation could look.",
+          "steps": [],
+          "prompt": "",
+          "tools": [
+            "Codex and your workshop project."
+          ],
+          "expected": [],
+          "check": [],
+          "fallback": "",
+          "repair_prompt": "",
+          "sources": [
+            "Live Zuora page: demo.metadata.io/zuora/",
+            "Gmail Sent: August 16, 2026. Redacted excerpt.",
+            "Gift invitation: recreated example."
+          ],
+          "notes": "Show the live page scroll, then pause. This is the current public page. The email excerpt is exact text from Gil’s August 16 sent email, with personal details removed. It linked to the earlier page at go.metadataone.com/zuora. The gift card is a labeled invitation mockup, not a provider screenshot. Gmail Sent proves the historical email was sent, not gift delivery or redemption. Do not attribute this email to the current v5 engine. Part 1 builds pages only.",
+          "build_step": 0,
+          "prompt_label": "",
+          "route": "main",
+          "next_id": "",
+          "next_action": "",
+          "chapter": 1,
+          "chapter_title": "See Metadata's working examples"
+        },
+        {
+          "id": "p1-finish",
+          "part": 1,
+          "title": "Build these files for your own company",
+          "type": "show",
+          "timing": 0,
+          "minutes": 0,
+          "difficulty": "Watch",
+          "visual_type": "artifact",
+          "visual_data": {
+            "artifacts": [
+              "COMPANY.md",
+              "TARGETS.md",
+              "First account page",
+              "Saved page skill",
+              "Second account page"
+            ],
+            "caption": "A skill is saved instructions for a repeatable job."
+          },
+          "body": "Use your company and two real targets. Your pages stay on your computer. They are unpublished. Part 1 needs no API keys.",
+          "steps": [],
+          "prompt": "",
+          "tools": [
+            "Codex and your workshop project."
+          ],
+          "expected": [
+            "Sourced company brief and operating instructions.",
+            "Two reviewed, unpublished pages and one reused skill.",
+            "Actual checks and next setup task."
+          ],
+          "check": [],
+          "fallback": "",
+          "repair_prompt": "",
+          "sources": [
+            {
+              "label": "Local v5 source snapshot",
+              "url": "sources/V5-WORKSHOP-SOURCES.md",
+              "date": "October 5, 2026",
+              "scope": "Teaching adaptation. No private recipient records."
+            }
+          ],
+          "notes": "Everyone follows the same exercise. Each person works on their own company. No group assignment or preference survey. This reference screen uses the adjacent lesson’s time. It is not an extra exercise.",
+          "build_step": 0,
+          "prompt_label": "",
+          "route": "main",
+          "next_id": "",
+          "next_action": "",
+          "chapter": 1,
+          "chapter_title": "See Metadata's working examples"
+        },
+        {
+          "id": "p1-install",
+          "part": 1,
+          "title": "Open the cloned folder. Build your company brief.",
+          "type": "exercise",
+          "timing": 12,
+          "minutes": 12,
+          "difficulty": "Easy",
+          "visual_type": "exercise",
+          "visual_data": {
+            "stages": [
+              "Open the repo",
+              "Add your website",
+              "Paste the prompt",
+              "Review the brief"
+            ],
+            "artifact": "company-motion/COMPANY.md + SETUP.md",
+            "caption": "One clone. One local project for all three workshops."
+          },
+          "body": "Open the cloned folder. Add your company details to the prompt below. Copy it into your local Codex or Claude Code project.",
+          "steps": [
+            {
+              "title": "Open agentic-gtm-workshop in local Codex or Claude Code.",
+              "detail": ""
+            },
+            {
+              "title": "Open Participant-Booklet.pdf and the embedded prompt.",
+              "detail": ""
+            },
+            {
+              "title": "Copy the full startup prompt. Replace its five inputs.",
+              "detail": "Your website, buyer segment, offer and two target domains."
+            },
+            {
+              "title": "Paste into your local agent. Review COMPANY.md when it stops.",
+              "detail": ""
+            }
+          ],
+          "prompt": "Help me build my company's GTM workflow one step at a time.\nWebsite: [YOUR_COMPANY_WEBSITE]\nBuyer segment: [BUYER_SEGMENT]\nOffer: [COLD_OFFER]\nTargets: [TARGET_1_DOMAIN], [TARGET_2_DOMAIN]\nI have cloned agentic-gtm-workshop and opened it as this local project. Read README.md, AGENTS.md and START-HERE.md. If an input is blank, ask only for what official sources cannot supply. Suggest real targets for my confirmation if needed.\nUse this workshop folder as my local project. Keep runtime in code/ and outputs in company-motion/. Run commands from code/.\nRead my official website and save company-motion/COMPANY.md with sourced facts, the segment, offer, proof and actual next-step link. Ask only for missing facts. If the site blocks access, use official text I paste.\nAfter company-motion/COMPANY.md exists, run from code/:\npython3 -B gtm.py bootstrap --company-brief ../company-motion/COMPANY.md\nUse its saved verified Python executable for later commands and standalone scripts.\nIf Python needs installation, name the official installer and stop there. Do not install Homebrew.\nRead company-motion/AUTHORITY.md and company-motion/AGENTS.md. Keep outreach and spending paused.\nSave both target domains and the actual bootstrap result in company-motion/SETUP.md. Append the completed step, actual file paths, checks and next task to company-motion/PROGRESS.md. Do not run later exercises.\nShow the output and success check. Stop. Next: review your company brief.",
+          "tools": [
+            "Local Codex or Claude Code; file and web access. No API credits."
+          ],
+          "expected": [
+            "COMPANY.md, SETUP.md, AUTHORITY.md and AGENTS.md."
+          ],
+          "check": [
+            "Setup found a supported Python version.",
+            "Sending and spending are paused.",
+            "The agent stops and names the next task."
+          ],
+          "fallback": "If web access is blocked, paste your official website text. If Python is missing, use the launcher's named official installer, then rerun this same step.",
+          "repair_prompt": "Fix exercise p1-install in this same saved project.\nExpected artifact: company-motion/COMPANY.md, company-motion/SETUP.md, company-motion/AUTHORITY.md, company-motion/AGENTS.md and saved interpreter receipt.\nSuccess check: Company brief exists before bootstrap. Compatible Python path/version is actually verified. Outreach and spending remain paused. Agent stops after setup and names the next step.\nRead the website/paste source and actual setup error. Create company-motion/COMPANY.md before bootstrap. If Python is missing, give the official installer and stop. If already installed, rerun bootstrap through the verified launcher, save company-motion/SETUP.md and confirm the missing files. Do not run later exercises.\nUse the saved verified interpreter for commands. Preserve completed files and earlier progress. Rerun the failed check and append its actual result and next task to company-motion/PROGRESS.md. Show the result. Stop. Next: review your company brief.\nActual error: [paste the error without credentials]",
+          "sources": [
+            {
+              "label": "Portable README and tools/setup.py; v5 database and CLI",
+              "url": "sources/V5-WORKSHOP-SOURCES.md",
+              "date": "October 5, 2026",
+              "scope": "Attendee setup is an added portable wrapper."
+            }
+          ],
+          "notes": "The command was shown on slide 2. Use the same cloned folder. Explain only the next task. The complete tested prompt stays unchanged in the copy helper.",
+          "build_step": 0,
+          "prompt_label": "Workshop prompt adapted to your company",
+          "route": "main",
+          "next_id": "p1-company",
+          "next_action": "review your company brief",
+          "chapter": 2,
+          "chapter_title": "Set up your company"
+        },
+        {
+          "id": "p1-company",
+          "part": 1,
+          "title": "Check your company facts, buyers and offer",
+          "type": "exercise",
+          "timing": 8,
+          "minutes": 8,
+          "difficulty": "Easy",
+          "visual_type": "flow",
+          "visual_data": {
+            "stages": [
+              "Official product page",
+              "Official proof page",
+              "Your agent reads sources",
+              "COMPANY.md"
+            ],
+            "fields": [
+              "What we sell",
+              "Who buys",
+              "What we can prove",
+              "Next step"
+            ],
+            "caption": "Source example: Metadata sells B2B advertising software. Its buyer facts feed later messages."
+          },
+          "body": "Open the brief. Correct the buyer and offer. Check every proof claim against its website source before your agent reuses it.",
+          "steps": [
+            {
+              "title": "Read COMPANY.md.",
+              "detail": "Check the buyer, offer and next-step link."
+            },
+            {
+              "title": "Open its proof sources.",
+              "detail": "Resolve conflicting numbers or leave them out."
+            },
+            {
+              "title": "Confirm the brief.",
+              "detail": "Use it for both account pages."
+            }
+          ],
+          "prompt": "Review company-motion/COMPANY.md with me.\nShow the buyer segment, offer, next-step link and the source behind each proof claim.\nIf the website has conflicting numbers, show both URLs and exact excerpts. Do not choose a number without support.\nAsk at most two short questions for missing company facts. Keep unsupported claims out of the brief.\nSave my corrections and preserve the source URLs and read dates.\nAppend this step, actual artifact, check and next task to company-motion/PROGRESS.md. Show the output. Stop. Next: review the operating instructions.",
+          "tools": [
+            "Codex web access and your official website. No paid API required."
+          ],
+          "expected": [
+            "company-motion/COMPANY.md with sourced company facts."
+          ],
+          "check": [
+            "Every proof claim has a supporting source.",
+            "Buyer segment and offer match your answers.",
+            "Conflicting website numbers are flagged, not silently selected."
+          ],
+          "fallback": "Paste text from your official product and proof pages. Codex saves the pasted source and labels it owner-provided.",
+          "repair_prompt": "Fix exercise p1-company in this same saved project.\nExpected artifact: company-motion/COMPANY.md with sourced company facts.\nSuccess check: Every proof claim has a supporting source. Buyer segment and offer match your answers. Conflicting website numbers are flagged, not silently selected.\nOpen the specific disputed claim and its exact official source excerpt. Show conflicting numbers to me. Remove unsupported proof or apply my factual correction; do not invent a replacement.\nUse the saved verified interpreter for commands. Preserve completed files and earlier progress. Rerun the failed check and append its actual result and next task to company-motion/PROGRESS.md. Show the result. Stop. Next: review the operating instructions.\nActual error: [paste the error without credentials]",
+          "sources": [
+            {
+              "label": "Original company foundation and page skills",
+              "url": "sources/V5-WORKSHOP-SOURCES.md",
+              "date": "October 5, 2026",
+              "scope": "Teaching prompt adapted to the attendee company."
+            }
+          ],
+          "notes": "",
+          "build_step": 1,
+          "prompt_label": "Workshop prompt adapted to your company",
+          "route": "main",
+          "next_id": "p1-authority",
+          "next_action": "review the operating instructions",
+          "chapter": 2,
+          "chapter_title": "Set up your company"
+        },
+        {
+          "id": "p1-authority",
+          "part": 1,
+          "title": "Check the saved rules. Keep sending paused.",
+          "type": "exercise",
+          "timing": 4,
+          "minutes": 4,
+          "difficulty": "Easy",
+          "visual_type": "boundary",
+          "visual_data": {
+            "artifacts": [
+              "COMPANY.md",
+              "AUTHORITY.md",
+              "AGENTS.md"
+            ],
+            "caption": "AGENTS.md holds the repeated rules. Each exercise prompt names only the next job."
+          },
+          "body": "Setup creates the operating instructions for you. Read the company facts and paused authority. Sending permissions are added in Part 2.",
+          "steps": [
+            {
+              "title": "Open AUTHORITY.md and AGENTS.md.",
+              "detail": "Your local rules and sending limits."
+            },
+            {
+              "title": "Confirm sending and spending are paused.",
+              "detail": ""
+            },
+            {
+              "title": "Ask your agent to repair either missing file.",
+              "detail": "Keep the existing company brief."
+            }
+          ],
+          "prompt": "Open company-motion/AUTHORITY.md and company-motion/AGENTS.md.\nIf either is missing, rerun:\npython3 -B gtm.py bootstrap --company-brief ../company-motion/COMPANY.md\nPreserve my existing facts, instructions and history.\nShow the company name, one-step-at-a-time rule, and paused outreach and spending rules.\nIf either file conflicts with my company brief, show the conflict for my correction. Do not grant a sender or live channel yet.\nAppend this step, actual artifact, check and next task to company-motion/PROGRESS.md. Show the output. Stop. Next: research the first target company.",
+          "tools": [
+            "Prepared bootstrap and your saved company brief. No API."
+          ],
+          "expected": [
+            "Present, readable AUTHORITY.md and AGENTS.md."
+          ],
+          "check": [
+            "Both files exist.",
+            "No outreach, sender, spend or country authority is invented."
+          ],
+          "fallback": "Rerun bootstrap with the existing company brief. Preserve the brief and working pages.",
+          "repair_prompt": "Fix exercise p1-authority in this same saved project.\nExpected artifact: Present, readable company-motion/AUTHORITY.md and company-motion/AGENTS.md.\nSuccess check: Both files exist. No outreach, sender, spend or country authority is invented.\nCheck which instruction file is actually missing. From code/, run python3 -B gtm.py bootstrap --company-brief ../company-motion/COMPANY.md. Preserve any existing authority and instructions. Confirm both files now open and outreach remains paused.\nUse the saved verified interpreter for commands. Preserve completed files and earlier progress. Rerun the failed check and append its actual result and next task to company-motion/PROGRESS.md. Show the result. Stop. Next: research the first target company.\nActual error: [paste the error without credentials]",
+          "sources": [
+            {
+              "label": "v5 AGENTS.md essential rules and owner switch",
+              "url": "sources/V5-WORKSHOP-SOURCES.md",
+              "date": "October 5, 2026",
+              "scope": "Attendee authority is separate from Gil’s production consent."
+            }
+          ],
+          "notes": "",
+          "build_step": 1,
+          "prompt_label": "Workshop prompt adapted to your company",
+          "route": "main",
+          "next_id": "p1-one-source",
+          "next_action": "research the first target company",
+          "chapter": 2,
+          "chapter_title": "Set up your company"
+        },
+        {
+          "id": "p1-one-source",
+          "part": 1,
+          "title": "Research your first target company",
+          "type": "exercise",
+          "timing": 5,
+          "minutes": 5,
+          "difficulty": "Easy",
+          "visual_type": "source_card",
+          "visual_data": {
+            "stages": [
+              "Actual target website",
+              "Exact useful excerpt",
+              "Source URL + read date",
+              "Target brief"
+            ],
+            "caption": "Keep the source next to the fact."
+          },
+          "body": "Enter the two companies you want to sell to. Research the first one now.",
+          "steps": [
+            {
+              "title": "Enter both target domains below.",
+              "detail": "Use company websites. Your entries carry into the next exercises."
+            },
+            {
+              "title": "Copy the research prompt. Paste it into your local agent.",
+              "detail": "Use the same Codex or Claude Code project."
+            },
+            {
+              "title": "Open the target brief your agent saves.",
+              "detail": "Check the company name, facts and source links."
+            }
+          ],
+          "prompt": "My two target companies are [TARGET_1_DOMAIN] and [TARGET_2_DOMAIN].\nSave these two domains in company-motion/SETUP.md. If they replace earlier choices, show the change and preserve earlier research.\nResearch [TARGET_1_DOMAIN] now. Read its official website and company-motion/COMPANY.md.\nSave company-motion/targets/[TARGET_1_DOMAIN].md with its product, buyers and facts relevant to our offer.\nFor each fact, include the source URL, exact supporting text and read date.\nKeep page ideas separate from facts. Do not invent revenue, spend, buying intent or a recent launch.\nShow the saved brief and one page idea supported by a sourced fact. Do not research the second company yet.\nAppend this step, actual artifact, check and next task to company-motion/PROGRESS.md. Show the output. Stop. Next: research the second target and save the target list.",
+          "tools": [
+            "Official target-company website. No paid API required."
+          ],
+          "expected": [
+            "One dated target brief."
+          ],
+          "check": [
+            "Each target fact has its exact source excerpt and read date.",
+            "The page idea is labeled as a suggestion."
+          ],
+          "fallback": "Paste the target’s official source text into Codex. Keep the official URL and retrieval date.",
+          "repair_prompt": "Fix exercise p1-one-source in this same saved project.\nExpected artifact: One dated target brief.\nSuccess check: Each target fact has its exact source excerpt and read date. The page idea is labeled as a suggestion.\nRead the first target domain in company-motion/SETUP.md. If its official site blocks access, use the official text I paste and label that source. Save the missing target brief with exact excerpts, dates and a separate proposed page idea.\nUse the saved verified interpreter for commands. Preserve completed files and earlier progress. Rerun the failed check and append its actual result and next task to company-motion/PROGRESS.md. Show the result. Stop. Next: research the second target and save the target list.\nActual error: [paste the error without credentials]",
+          "sources": [
+            {
+              "label": "v5 engine/research.py and exact source-record pattern",
+              "url": "sources/V5-WORKSHOP-SOURCES.md",
+              "date": "October 5, 2026",
+              "scope": "Official-source exercise. Paid research remains separate."
+            }
+          ],
+          "notes": "",
+          "build_step": 1,
+          "prompt_label": "Workshop prompt adapted to your company",
+          "route": "main",
+          "next_id": "p1-target-fit",
+          "next_action": "research the second target and save the target list",
+          "chapter": 3,
+          "chapter_title": "Choose two target companies"
+        },
+        {
+          "id": "p1-target-fit",
+          "part": 1,
+          "title": "Save your two target companies",
+          "type": "exercise",
+          "timing": 5,
+          "minutes": 5,
+          "difficulty": "Easy",
+          "visual_type": "account_cards",
+          "visual_data": {
+            "cards": [
+              {
+                "label": "Target 1",
+                "fields": [
+                  "Real domain",
+                  "Product",
+                  "Relevant buyer",
+                  "Fit source"
+                ]
+              },
+              {
+                "label": "Target 2",
+                "fields": [
+                  "Real domain",
+                  "Different product",
+                  "Relevant buyer",
+                  "Fit source"
+                ]
+              }
+            ],
+            "artifact": "TARGETS.md"
+          },
+          "body": "These are companies you want to sell to. Save their domains and one sourced reason your offer fits each company.",
+          "steps": [
+            {
+              "title": "Confirm both target domains below.",
+              "detail": "Your entries are saved from the previous exercise."
+            },
+            {
+              "title": "Copy this prompt into the same local agent.",
+              "detail": "It researches Target 2 and saves your two-company list."
+            },
+            {
+              "title": "Open TARGETS.md.",
+              "detail": "Check both domains and the sourced reason to target each company."
+            }
+          ],
+          "prompt": "My two target companies are [TARGET_1_DOMAIN] and [TARGET_2_DOMAIN].\nRead the saved brief for [TARGET_1_DOMAIN]. If it is missing or names another domain, stop and ask me to rerun the first-target research exercise.\nResearch [TARGET_2_DOMAIN] from its official sources. Save company-motion/targets/[TARGET_2_DOMAIN].md with exact source excerpts and read dates.\nSave company-motion/TARGETS.md with both actual domains, products, buyers and one sourced reason our offer fits each.\nUpdate the selected domains in company-motion/SETUP.md. Preserve earlier research if a domain changed.\nKeep uncertain fit marked for review. This list is page-building input, not permission to contact a person.\nShow both companies plainly, one row each.\nAppend this step, actual artifact, check and next task to company-motion/PROGRESS.md. Show the output. Stop. Next: build the first account page.",
+          "tools": [
+            "Two real target domains and browser access. No paid API required."
+          ],
+          "expected": [
+            "Two reviewed target briefs and company-motion/TARGETS.md."
+          ],
+          "check": [
+            "Each company has one supported reason for the page."
+          ],
+          "fallback": "Use two named companies you already know, then paste their official product pages.",
+          "repair_prompt": "Fix exercise p1-target-fit in this same saved project.\nExpected artifact: Two reviewed target briefs and company-motion/TARGETS.md.\nSuccess check: Each company has one supported reason for the page.\nOpen both saved target briefs and company-motion/TARGETS.md. Fill only the missing second-target facts from its actual official source. Keep an uncertain fit marked for review; do not choose a fictional company.\nUse the saved verified interpreter for commands. Preserve completed files and earlier progress. Rerun the failed check and append its actual result and next task to company-motion/PROGRESS.md. Show the result. Stop. Next: build the first account page.\nActual error: [paste the error without credentials]",
+          "sources": [
+            {
+              "label": "Target-account skill and source identity checks",
+              "url": "sources/V5-WORKSHOP-SOURCES.md",
+              "date": "October 5, 2026",
+              "scope": "Page suitability does not establish outreach eligibility."
+            }
+          ],
+          "notes": "",
+          "build_step": 1,
+          "prompt_label": "Workshop prompt adapted to your company",
+          "route": "main",
+          "next_id": "p1-build-page",
+          "next_action": "build the first account page",
+          "chapter": 3,
+          "chapter_title": "Choose two target companies"
+        },
+        {
+          "id": "p1-page-example",
+          "part": 1,
+          "title": "Zuora: show useful ideas before asking for time",
+          "type": "show",
+          "timing": 0,
+          "minutes": 0,
+          "difficulty": "Watch",
+          "visual_type": "screenshot",
+          "visual_data": {
+            "image": "assets/actual-zuora-page.png",
+            "callouts": [
+              "Buyer-specific ideas",
+              "Seller proof",
+              "Next step"
+            ],
+            "caption": "Actual historical Metadata page. Your first page uses your own offer."
+          },
+          "body": "The page gives Zuora campaign ideas. It shows the offer and a clear next step. Your page should do the same for your buyer.",
+          "steps": [],
+          "prompt": "",
+          "tools": [
+            "Codex and your workshop project."
+          ],
+          "expected": [],
+          "check": [],
+          "fallback": "",
+          "repair_prompt": "",
+          "sources": [
+            {
+              "label": "Actual Zuora page screenshot",
+              "url": "sources/V5-WORKSHOP-SOURCES.md",
+              "date": "October 5, 2026",
+              "scope": "Historical visual example."
+            }
+          ],
+          "notes": "This reference screen uses the adjacent lesson’s time. It is not an extra exercise.",
+          "build_step": 0,
+          "prompt_label": "",
+          "route": "main",
+          "next_id": "",
+          "next_action": "",
+          "chapter": 3,
+          "chapter_title": "Choose two target companies"
+        },
+        {
+          "id": "p1-build-page",
+          "part": 1,
+          "title": "Build the page for your first target",
+          "type": "exercise",
+          "timing": 10,
+          "minutes": 10,
+          "difficulty": "Easy",
+          "visual_type": "exercise",
+          "visual_data": {
+            "stages": [
+              "COMPANY.md",
+              "Target brief",
+              "Account-page instructions",
+              "index.html"
+            ],
+            "artifact": "A real browser page",
+            "image": "assets/actual-zuora-page.png"
+          },
+          "body": "Build a landing page for Target 1 using your saved company facts and target research.",
+          "steps": [
+            {
+              "title": "Confirm the target domain below.",
+              "detail": "This is Target 1, the company you researched first."
+            },
+            {
+              "title": "Copy the page prompt. Paste it into the same local agent.",
+              "detail": "The prompt names your target and the exact file to create."
+            },
+            {
+              "title": "Open the page your agent creates.",
+              "detail": "It stays on your computer. Check the company name, offer and button, then review its claims and layout."
+            }
+          ],
+          "prompt": "Build a landing page for [TARGET_1_DOMAIN].\nRead company-motion/COMPANY.md and company-motion/targets/[TARGET_1_DOMAIN].md. If either is missing or names the wrong company, stop and name the earlier exercise to complete.\nSave the page as company-motion/pages/[TARGET_1_DOMAIN]/index.html.\nKeep it local and unpublished. Do not deploy or upload it.\nCreate one HTML file that works on desktop and phone. Keep its styles, scripts and required graphics inside it.\nUse our brand, an idea relevant to this company, our actual offer, supported proof and our real next-step link.\nKeep suggestions distinct from facts. Do not invent a testimonial, logo, demo length, result or recent launch. If proof is weak, use supported product facts or omit that block.\nSave claim/source notes beside the page. Open the page in a browser and show it to me.\nIf the browser blocks the local file, start a local HTTP preview on an unused 127.0.0.1 port. Serve only this page folder and its public assets. Open that preview, then stop it when browser checks are complete.\nAppend this step, actual artifact, check and next task to company-motion/PROGRESS.md. Show the output. Stop. Next: check every claim and review desktop and phone layouts.",
+          "tools": [
+            "Codex file/browser access and the two saved briefs. No API credits."
+          ],
+          "expected": [
+            "A local, unpublished HTML page and source notes."
+          ],
+          "check": [
+            "The page opens.",
+            "The seller, target and next step are correct.",
+            "No unsupported proof appears."
+          ],
+          "fallback": "If the browser blocks the file URL, use a local HTTP preview. Keep any browser check you could not run marked unverified.",
+          "repair_prompt": "Fix exercise p1-build-page in this same saved project.\nExpected artifact: A local, unpublished HTML page and source notes.\nSuccess check: The page opens. The seller, target and next step are correct. No unsupported proof appears.\nOpen the actual HTML and its saved company/target briefs. Repair the wrong seller, target, link, standalone dependency or unsupported claim. Use sourced product facts when proof is thin. Reopen the file and keep the source notes.\nUse the saved verified interpreter for commands. Preserve completed files and earlier progress. Rerun the failed check and append its actual result and next task to company-motion/PROGRESS.md. Show the result. Stop. Next: check every claim and review desktop and phone layouts.\nActual error: [paste the error without credentials]",
+          "sources": [
+            {
+              "label": "Actual page skill and Zuora output",
+              "url": "sources/V5-WORKSHOP-SOURCES.md",
+              "date": "October 5, 2026",
+              "scope": "Workshop adaptation creates a page for the attendee’s own target."
+            }
+          ],
+          "notes": "",
+          "build_step": 1,
+          "prompt_label": "Workshop prompt adapted to your company",
+          "route": "main",
+          "next_id": "p1-page-review",
+          "next_action": "check every claim and review desktop and phone layouts",
+          "chapter": 4,
+          "chapter_title": "Build and check your first page"
+        },
+        {
+          "id": "p1-page-review",
+          "part": 1,
+          "title": "Check every claim. Then check the page layout.",
+          "type": "exercise",
+          "timing": 10,
+          "minutes": 10,
+          "difficulty": "Easy",
+          "visual_type": "review",
+          "visual_data": {
+            "checks": [
+              "Every factual claim has a source",
+              "Offer and timing are real",
+              "Actual phone viewport is 390 pixels",
+              "Next-step link works"
+            ],
+            "artifact": "PAGE-REVIEW.md"
+          },
+          "body": "The page can look good and still make a false claim. Check every sentence against its source before approving the page.",
+          "steps": [
+            {
+              "title": "Read each factual claim.",
+              "detail": "Open its exact source and supporting text."
+            },
+            {
+              "title": "Remove unsupported promises.",
+              "detail": "Check demo length, numbers, testimonials and words such as \"just launched\"."
+            },
+            {
+              "title": "Check desktop and phone.",
+              "detail": "Measure the browser viewport, not the Mac window."
+            },
+            {
+              "title": "Open the next-step link.",
+              "detail": "Repair failed checks and rerun them."
+            }
+          ],
+          "prompt": "Review every factual claim in the saved HTML, including headings, buttons, captions and footer.\nSave a claim ledger with the claim, exact source URL and supporting excerpt. Remove or rewrite unsupported demo length, results, testimonials and recency claims. Suggestions must be labeled.\nCheck the page in actual browser viewports at 1440 x 900 and 390 x 844. Read window.innerWidth and window.innerHeight before checking overflow; resizing a Mac window alone is not proof of the viewport.\nIf the browser cannot reach 390 pixels, record phone review as unverified and give a device-mode or phone check. Do not report false clipping.\nTest the next-step link. Repair failures and rerun them.\nSave company-motion/PAGE-REVIEW.md with the claim ledger, measured viewport sizes, screenshots and unresolved checks.\nIf the browser blocks a local file URL, start a local HTTP preview on an unused 127.0.0.1 port. Serve only this page folder and its public assets. Open the page through that preview, then stop the preview when the browser checks are complete.\nAppend this step, actual artifact, check and next task to company-motion/PROGRESS.md. Show the output. Stop. Next: save the checked page method as a skill.",
+          "tools": [
+            "Browser and generated HTML. No paid API required."
+          ],
+          "expected": [
+            "Reviewed page plus company-motion/PAGE-REVIEW.md."
+          ],
+          "check": [
+            "Every factual claim has exact supporting text or is removed.",
+            "Measured innerWidth matches the recorded viewport.",
+            "Phone overflow is measured inside that viewport.",
+            "Failed checks are rerun after repair."
+          ],
+          "fallback": "If the browser blocks the file URL, use a local HTTP preview. Keep any browser check you could not run marked unverified.",
+          "repair_prompt": "Fix exercise p1-page-review in this same saved project.\nExpected artifact: Reviewed page plus company-motion/PAGE-REVIEW.md.\nSuccess check: Every factual claim has exact supporting text or is removed. Measured innerWidth matches the recorded viewport. Phone overflow is measured inside that viewport. Failed checks are rerun after repair.\nOpen the failed claim or viewport check. Remove unsupported promises using the exact source. Measure browser innerWidth/innerHeight before overflow. If a real 390px viewport is unavailable, leave phone review unverified and give the manual device-mode or phone check. Rerun repaired checks.\nUse the saved verified interpreter for commands. Preserve completed files and earlier progress. Rerun the failed check and append its actual result and next task to company-motion/PROGRESS.md. Show the result. Stop. Next: save the checked page method as a skill.\nActual error: [paste the error without credentials]",
+          "sources": [
+            {
+              "label": "v5 assets.py separates byte verification and browser acceptance",
+              "url": "sources/V5-WORKSHOP-SOURCES.md",
+              "date": "October 5, 2026",
+              "scope": "Visual review is an actual attendee browser check."
+            }
+          ],
+          "notes": "",
+          "build_step": 1,
+          "prompt_label": "Workshop prompt adapted to your company",
+          "route": "main",
+          "next_id": "p1-save-skill",
+          "next_action": "save the checked page method as a skill",
+          "chapter": 4,
+          "chapter_title": "Build and check your first page"
+        },
+        {
+          "id": "p1-save-skill",
+          "part": 1,
+          "title": "Save your page-building instructions as a skill",
+          "type": "exercise",
+          "timing": 6,
+          "minutes": 6,
+          "difficulty": "Easy",
+          "visual_type": "artifact",
+          "visual_data": {
+            "stages": [
+              "Method that passed",
+              "Required facts",
+              "Creation steps",
+              "Success checks",
+              "SKILL.md"
+            ],
+            "artifact": "company-motion/skills/account-page/SKILL.md"
+          },
+          "body": "A skill is a file of instructions for a repeatable job. Save the method that produced your reviewed page.",
+          "steps": [
+            {
+              "title": "Copy the skill prompt.",
+              "detail": "Use your checked page and source notes."
+            },
+            {
+              "title": "Read the saved SKILL.md.",
+              "detail": "It must say what to read, build and check."
+            },
+            {
+              "title": "Use these instructions for the next page.",
+              "detail": ""
+            }
+          ],
+          "prompt": "Create company-motion/skills/account-page/SKILL.md from the method that passed review.\nInclude the required company and target facts, standalone HTML output, source ledger, missing-proof rule, real next-step link and measured desktop/phone checks.\nUse the reviewed first page as the example. Make the instructions usable in a fresh local agent session.\nRequire each factual claim to have exact source support. Keep unsupported facts out.\nShow the complete saved skill.\nAppend this step, actual artifact, check and next task to company-motion/PROGRESS.md. Show the output. Stop. Next: use that skill for the second target.",
+          "tools": [
+            "Reviewed first page and source notes. No API credits."
+          ],
+          "expected": [
+            "company-motion/skills/account-page/SKILL.md."
+          ],
+          "check": [
+            "The skill names inputs, output and checks.",
+            "A missing source has a defined response."
+          ],
+          "fallback": "Use the complete skill prompt with the reviewed page and source notes. Save the skill in company-motion, then inspect it.",
+          "repair_prompt": "Fix exercise p1-save-skill in this same saved project.\nExpected artifact: company-motion/skills/account-page/SKILL.md.\nSuccess check: The skill names inputs, output and checks. A missing source has a defined response.\nOpen the saved skill and reviewed first page. Add the missing input, claim-source rule, standalone output path or measured viewport check. Show the complete skill; do not edit the reviewed first page.\nUse the saved verified interpreter for commands. Preserve completed files and earlier progress. Rerun the failed check and append its actual result and next task to company-motion/PROGRESS.md. Show the result. Stop. Next: use that skill for the second target.\nActual error: [paste the error without credentials]",
+          "sources": [
+            {
+              "label": "Original STEP 1 skills method and local v5 callable skill",
+              "url": "sources/V5-WORKSHOP-SOURCES.md",
+              "date": "October 5, 2026",
+              "scope": "Portable saved skill, not a production private-source copy."
+            }
+          ],
+          "notes": "",
+          "build_step": 1,
+          "prompt_label": "Workshop prompt adapted to your company",
+          "route": "main",
+          "next_id": "p1-repeat",
+          "next_action": "use that skill for the second target",
+          "chapter": 5,
+          "chapter_title": "Save the skill. Build page two."
+        },
+        {
+          "id": "p1-repeat",
+          "part": 1,
+          "title": "Use the skill for your second target",
+          "type": "exercise",
+          "timing": 8,
+          "minutes": 8,
+          "difficulty": "Easy",
+          "visual_type": "before_after",
+          "visual_data": {
+            "before": [
+              "First target’s source",
+              "First target’s ideas",
+              "First reviewed page"
+            ],
+            "after": [
+              "Second target’s source",
+              "Second target’s ideas",
+              "Second reviewed page"
+            ],
+            "caption": "The saved method repeats. Buyer-specific facts change."
+          },
+          "body": "Run the saved instructions for the second company. Check that its facts and page idea changed, and that the first page stayed intact.",
+          "steps": [
+            {
+              "title": "Run the account-page skill.",
+              "detail": "Use the second saved target brief."
+            },
+            {
+              "title": "Open both pages.",
+              "detail": "Compare buyer names and ideas."
+            },
+            {
+              "title": "Save the repeat result.",
+              "detail": "Keep the first page intact."
+            }
+          ],
+          "prompt": "Use our saved account-page skill to build a landing page for [TARGET_2_DOMAIN].\nRead company-motion/targets/[TARGET_2_DOMAIN].md. If it is missing or names another company, stop and ask me to complete the second-target research exercise.\nSave the page as company-motion/pages/[TARGET_2_DOMAIN]/index.html.\nKeep both pages local and unpublished. Do not deploy or upload them. Keep the first page unchanged.\nRun the skill's full claim/source review and measured desktop/phone checks. A missing browser check stays unverified.\nShow what changed between the two targets. Remove facts or generic copy carried over from the first company.\nSave company-motion/SKILL-TEST.md with both page paths, review evidence and remaining issues.\nIf the browser blocks a local file URL, start a local HTTP preview on an unused 127.0.0.1 port. Serve only this page folder and its public assets. Open the page through that preview, then stop the preview when the browser checks are complete.\nAppend this step, actual artifact, check and next task to company-motion/PROGRESS.md. Show the output. Stop. Next: check the Part 1 files after the break.",
+          "tools": [
+            "Saved account-page skill and second target brief. No paid API required."
+          ],
+          "expected": [
+            "Second reviewed, unpublished page and company-motion/SKILL-TEST.md."
+          ],
+          "check": [
+            "Each page addresses its own buyer.",
+            "The first page remains intact.",
+            "The saved skill produced both outputs."
+          ],
+          "fallback": "If the second website blocks access, use its saved official-source text. Label that source path.",
+          "repair_prompt": "Fix exercise p1-repeat in this same saved project.\nExpected artifact: Second reviewed page and company-motion/SKILL-TEST.md.\nSuccess check: Each page addresses its own buyer. The first page remains intact. The saved skill produced both outputs.\nRead the second-target brief and saved skill. Repair its own missing or copied claim without touching the first page. Repeat the claim and measured-layout checks and save company-motion/SKILL-TEST.md.\nUse the saved verified interpreter for commands. Preserve completed files and earlier progress. Rerun the failed check and append its actual result and next task to company-motion/PROGRESS.md. Show the result. Stop. Next: check the Part 1 files after the break.\nActual error: [paste the error without credentials]",
+          "sources": [
+            {
+              "label": "Individual skill testing before combined pilot",
+              "url": "sources/V5-WORKSHOP-SOURCES.md",
+              "date": "October 5, 2026",
+              "scope": "Two outputs verify reuse, not all-channel execution."
+            }
+          ],
+          "notes": "",
+          "build_step": 1,
+          "prompt_label": "Workshop prompt adapted to your company",
+          "route": "main",
+          "next_id": "p1-checkpoint",
+          "next_action": "check the Part 1 files after the break",
+          "chapter": 5,
+          "chapter_title": "Save the skill. Build page two."
+        },
+        {
+          "id": "p1-break",
+          "part": 1,
+          "title": "Save your pages. Take five minutes.",
+          "type": "break",
+          "timing": 5,
+          "minutes": 5,
+          "difficulty": "Pause",
+          "visual_type": "coffee",
+          "visual_data": {
+            "caption": "Your agent can wait. Coffee cannot."
+          },
+          "body": "Save both pages. Leave the project open. Return in five minutes.",
+          "steps": [],
+          "prompt": "",
+          "tools": [
+            "Five-minute break."
+          ],
+          "expected": [],
+          "check": [],
+          "fallback": "",
+          "repair_prompt": "",
+          "sources": [
+            {
+              "label": "Local v5 source snapshot",
+              "url": "sources/V5-WORKSHOP-SOURCES.md",
+              "date": "October 5, 2026",
+              "scope": "Teaching adaptation. No private recipient records."
+            }
+          ],
+          "notes": "Light humor. No task during the break. Timing includes this break.",
+          "build_step": 0,
+          "prompt_label": "",
+          "route": "main",
+          "next_id": "",
+          "next_action": "",
+          "chapter": 5,
+          "chapter_title": "Save the skill. Build page two."
+        },
+        {
+          "id": "p1-checkpoint",
+          "part": 1,
+          "title": "Check the files. Fix anything missing.",
+          "type": "exercise",
+          "timing": 5,
+          "minutes": 5,
+          "difficulty": "Easy",
+          "visual_type": "checklist",
+          "visual_data": {
+            "checks": [
+              "Company facts",
+              "Two target briefs",
+              "Two reviewed pages",
+              "Saved skill",
+              "Observed repeat test"
+            ],
+            "artifact": "PROGRESS.md"
+          },
+          "body": "Check the local files and browser results. Your pages are unpublished. Publishing is not a Part 1 requirement.",
+          "steps": [
+            {
+              "title": "Copy the checkpoint prompt.",
+              "detail": "Your agent opens each required file."
+            },
+            {
+              "title": "Fix a failed local check, if there is one.",
+              "detail": "If every required check passes, Part 1 is complete."
+            },
+            {
+              "title": "Read PROGRESS.md.",
+              "detail": "Check the result and your next task."
+            }
+          ],
+          "prompt": "Open our company brief, setup receipt, company-motion/AUTHORITY.md, company-motion/AGENTS.md, target list, two target briefs, two pages, page review, saved skill and skill test.\nIf company-motion/AUTHORITY.md or company-motion/AGENTS.md is missing, rerun bootstrap with the existing company brief. Preserve all working outputs and history.\nAppend actual paths and passed or missing local checks to company-motion/PROGRESS.md. Do not claim a browser check you did not run.\nRecord both pages as local and unpublished. Publishing is not required for Part 1. Do not deploy or upload them, and do not mark unpublished as a failed check.\nIf a required local check failed, repair the first available cause and rerun that check. Name the next action for any remaining local gap.\nIf all required local checks pass, mark Part 1 complete and skip repair. Keep future email connections and live actions in a separate Part 2 prework list.\nShow the actual results. Stop. Next: fix a failed local check if one remains; otherwise keep the project for Part 2.",
+          "tools": [
+            "Your generated files and actual browser results. No new credits."
+          ],
+          "expected": [
+            "PROGRESS.md with actual paths and passed or missing checks."
+          ],
+          "check": [
+            "Required files are actually opened.",
+            "Missing authority/instruction files can be repaired in place.",
+            "Pages are local and unpublished. Publishing is not a completion check."
+          ],
+          "fallback": "Share the failed file or error with the repair prompt. Continue from the same project.",
+          "repair_prompt": "Read the Part 1 checkpoint in company-motion/PROGRESS.md. If all required local checks pass, say Part 1 is complete and stop. Do not invent a repair task.\nOtherwise open the file or browser result for the first failed local check. Repair only that cause, using the existing company brief and saved interpreter. Preserve both pages, source notes, saved skill and history.\nRecord actual paths and rerun results in company-motion/PROGRESS.md. Keep pages local and unpublished. Publishing and future email setup are not Part 1 completion requirements.\nShow the result and any remaining local gap. Stop.\nActual error: [paste the error without credentials]",
+          "sources": [
+            {
+              "label": "Source-grounded completion standard",
+              "url": "sources/V5-WORKSHOP-SOURCES.md",
+              "date": "October 5, 2026",
+              "scope": "File and browser evidence only."
+            }
+          ],
+          "notes": "",
+          "build_step": 1,
+          "prompt_label": "Workshop prompt adapted to your company",
+          "route": "main",
+          "next_id": "p1-help",
+          "next_action": "fix a failed local check if one remains; otherwise keep the project for Part 2",
+          "chapter": 5,
+          "chapter_title": "Save the skill. Build page two."
+        },
+        {
+          "id": "p1-help",
+          "part": 1,
+          "title": "Fix a failed check, if one remains",
+          "type": "exercise",
+          "timing": 20,
+          "minutes": 20,
+          "difficulty": "Help",
+          "visual_type": "help",
+          "visual_data": {},
+          "body": "If your Part 1 checks pass, you are done. If one failed, open its repair prompt and ask Gil for help.",
+          "steps": [
+            {
+              "title": "Read the Part 1 checkpoint in PROGRESS.md.",
+              "detail": "No failed local check? Skip repair."
+            },
+            {
+              "title": "Copy that task's repair prompt from the embedded prompt.",
+              "detail": ""
+            },
+            {
+              "title": "Add your error. Rerun the check. Save the result.",
+              "detail": ""
+            }
+          ],
+          "prompt": "Read company-motion/PROGRESS.md and check the required local Part 1 results.\nIf all required checks pass, say Part 1 is complete and stop. Do not invent another task. Unpublished pages and future email setup are not failed Part 1 checks.\nIf a required local check failed, repair its cause in this same project. Preserve working pages, source notes and the saved skill.\nRerun that check and update company-motion/PROGRESS.md with the actual result.\nIf phone review is missing, show the exact manual device-mode or phone check. Do not invent a pass.\nKeep pages local and unpublished. Show the result. Stop. Next: keep this project and complete email prework before Part 2.",
+          "tools": [
+            "Codex and your workshop project."
+          ],
+          "expected": [
+            "A repaired local check, or confirmation that Part 1 is complete."
+          ],
+          "check": [
+            "A failed local check was rerun, or all required local checks already passed."
+          ],
+          "fallback": "Save the unresolved error and named missing setup. Do not reset the project.",
+          "repair_prompt": "Read company-motion/PROGRESS.md and check the required local Part 1 results.\nIf all required checks pass, say Part 1 is complete and stop. Do not invent another task. Unpublished pages and future email setup are not failed Part 1 checks.\nIf a required local check failed, repair its cause in this same project. Preserve working pages, source notes and the saved skill.\nRerun that check and update company-motion/PROGRESS.md with the actual result.\nIf phone review is missing, show the exact manual device-mode or phone check. Do not invent a pass.\nKeep pages local and unpublished. Show the result. Stop. Next: keep this project and complete email prework before Part 2.\nActual error: [paste the error without credentials]",
+          "sources": [
+            {
+              "label": "Local v5 source snapshot",
+              "url": "sources/V5-WORKSHOP-SOURCES.md",
+              "date": "October 5, 2026",
+              "scope": "Teaching adaptation. No private recipient records."
+            }
+          ],
+          "notes": "Twenty minutes for individual help. Ten minutes of the original help buffer are used for chapter videos. No new theory.",
+          "build_step": 0,
+          "prompt_label": "Workshop prompt adapted to your company",
+          "route": "main",
+          "next_id": "p1-before-part2",
+          "next_action": "prepare the single email connection before Part 2",
+          "chapter": 5,
+          "chapter_title": "Save the skill. Build page two."
+        },
+        {
+          "id": "p1-tool-options",
+          "part": 1,
+          "title": "Choose tools you already use",
+          "type": "show",
+          "timing": 2,
+          "minutes": 2,
+          "difficulty": "Watch",
+          "visual_type": "diagram",
+          "visual_data": {
+            "tool_options": [
+              {
+                "name": "Enrich company and buyer facts",
+                "choices": [
+                  {
+                    "name": "Sixtyfour",
+                    "url": "https://www.sixtyfour.ai/"
+                  },
+                  {
+                    "name": "RocketReach",
+                    "url": "https://rocketreach.co/api"
+                  },
+                  {
+                    "name": "MoltSets",
+                    "url": "https://moltsets.com/"
+                  },
+                  {
+                    "name": "Triguna",
+                    "url": "https://triguna.ai/"
+                  },
+                  {
+                    "name": "Adyntel",
+                    "url": "https://www.adyntel.com/"
+                  }
+                ],
+                "detail": "People and company data. Adyntel adds advertising activity.",
+                "needs": "Your provider account, API access and lookup credits."
+              },
+              {
+                "name": "Send email",
+                "choices": [
+                  {
+                    "name": "Google directly",
+                    "url": "https://developers.google.com/gmail/api"
+                  },
+                  {
+                    "name": "Instantly.ai",
+                    "url": "https://developer.instantly.ai/"
+                  },
+                  {
+                    "name": "Apollo.io",
+                    "url": "https://docs.apollo.io/reference/apollo-api"
+                  }
+                ],
+                "detail": "An already connected Instantly or Apollo mailbox can avoid a new Google API setup. Company permissions still apply.",
+                "needs": "A connected sender and a plan with API access."
+              },
+              {
+                "name": "Send a gift invitation",
+                "choices": [
+                  {
+                    "name": "Loop & Tie",
+                    "url": "https://docs.loopandtie.com/reference/oauth-20-api-access"
+                  },
+                  {
+                    "name": "Sendoso",
+                    "url": "https://www.sendoso.com/platform/features/mcp"
+                  }
+                ],
+                "detail": "Create gift invitations and read the provider’s result.",
+                "needs": "API or MCP access and your approved gift budget."
+              },
+              {
+                "name": "Run advertising",
+                "choices": [
+                  {
+                    "name": "Metadata.io MCP",
+                    "url": "https://metadata.io/developers"
+                  }
+                ],
+                "detail": "Build audiences, creatives and campaigns. Manage 12 channels through one platform.",
+                "needs": "A Metadata account and connected ad accounts.",
+                "note": "Use supported advertising connections. Account policies still apply."
+              }
+            ]
+          },
+          "body": "No new connection is needed today. These are options for the next sessions.",
+          "steps": [],
+          "prompt": "",
+          "tools": [
+            "Reference only. No account or credits needed."
+          ],
+          "expected": [],
+          "check": [],
+          "fallback": "",
+          "repair_prompt": "",
+          "sources": [],
+          "notes": "",
+          "build_step": 0,
+          "prompt_label": "",
+          "route": "main",
+          "next_id": "",
+          "next_action": "",
+          "chapter": 5,
+          "chapter_title": "Save the skill. Build page two."
+        },
+        {
+          "id": "p1-part2-preview",
+          "part": 1,
+          "title": "Part 2: send your first email pilot",
+          "type": "show",
+          "timing": 2,
+          "minutes": 2,
+          "difficulty": "Watch",
+          "visual_type": "diagram",
+          "visual_data": {
+            "teaser": "email",
+            "steps": [
+              "Choose 10 accounts",
+              "Find and check buyers",
+              "Preview exact emails",
+              "Send one test to yourself",
+              "Run the approved pilot"
+            ],
+            "image": "assets/zuora-email-redacted.png",
+            "outcome": "Leave with a reviewed email workflow and a checked test send.",
+            "url": "https://luma.com/jd8tm0ij"
+          },
+          "body": "Use the pages and company brief you built today.",
+          "steps": [],
+          "prompt": "",
+          "tools": [
+            "Reference only. No account or credits needed."
+          ],
+          "expected": [],
+          "check": [],
+          "fallback": "",
+          "repair_prompt": "",
+          "sources": [],
+          "notes": "",
+          "build_step": 0,
+          "prompt_label": "",
+          "route": "main",
+          "next_id": "",
+          "next_action": "",
+          "chapter": 5,
+          "chapter_title": "Save the skill. Build page two."
+        },
+        {
+          "id": "p1-part3-preview",
+          "part": 1,
+          "title": "Part 3: add gifts, LinkedIn and ads",
+          "type": "show",
+          "timing": 2,
+          "minutes": 2,
+          "difficulty": "Watch",
+          "visual_type": "diagram",
+          "visual_data": {
+            "teaser": "orchestrator",
+            "steps": [
+              "Check replies and bookings",
+              "Stop follow-ups after a reply or booking",
+              "Prepare the next approved action",
+              "Read the provider result",
+              "Repeat within your limits"
+            ],
+            "outcome": "Add gifting, LinkedIn and advertising to the same workflow.",
+            "url": "https://luma.com/wucyo6fw"
+          },
+          "body": "See how one workflow coordinates the channels you choose.",
+          "steps": [],
+          "prompt": "",
+          "tools": [
+            "Reference only. No account or credits needed."
+          ],
+          "expected": [],
+          "check": [],
+          "fallback": "",
+          "repair_prompt": "",
+          "sources": [],
+          "notes": "",
+          "build_step": 0,
+          "prompt_label": "",
+          "route": "main",
+          "next_id": "",
+          "next_action": "",
+          "chapter": 5,
+          "chapter_title": "Save the skill. Build page two."
+        },
+        {
+          "id": "p1-before-part2",
+          "part": 1,
+          "title": "Keep building. Join Parts 2 and 3.",
+          "type": "reference",
+          "timing": 0,
+          "minutes": 0,
+          "difficulty": "Setup",
+          "visual_type": "connections",
+          "visual_data": {
+            "required": [
+              "Register using the QR code.",
+              "Open PREWORK.md in your cloned project.",
+              "Connect your own Google email and calendar.",
+              "Bring customer and opt-out exclusions."
+            ],
+            "optional": [
+              "A paid finder only when current contact details are missing"
+            ],
+            "registrations": [
+              {
+                "title": "Workshop 2",
+                "url": "https://luma.com/jd8tm0ij",
+                "qr": "assets/workshop-2-qr.png"
+              },
+              {
+                "title": "Workshop 3",
+                "url": "https://luma.com/wucyo6fw",
+                "qr": "assets/workshop-3-qr.png"
+              }
+            ],
+            "google_steps": [
+              "Create your Google Cloud project",
+              "Enable Gmail and Calendar APIs",
+              "Configure Google Auth Platform consent",
+              "Add your sender as a test user when required",
+              "Create a Desktop app OAuth client",
+              "Download the client JSON privately",
+              "Run setup-google and sign in"
+            ],
+            "caption": "Send this setup request early. If authorization is blocked, prepare messages and label live sending incomplete."
+          },
+          "body": "After class, follow PREWORK.md for the next workshop. Keep using the same project.",
+          "steps": [],
+          "prompt": "Read API-CONNECTIONS.html, API-CONNECTIONS.md and SETUP-SEQUENCE.md for the single email channel.\nPrepare my own sender, primary calendar, permitted countries and current customer/deal/opt-out exclusions.\nFollow the Google Cloud sign-in guide. It must initialize this fresh email configuration from code/ using python3 -B gtm.py init --config and the actual private path before treating email setup as ready; bootstrap alone is local file setup. Use the project launcher and the actual private client-file path. Record the authenticated sender and calendar; name any Workspace-admin blocker.\nPrepare ten distinct target domains and current buyer contacts plus my own self-test address.\nRead the actual ZeroBounce balance and show the validation cost. Ask for my bounded paid-validation approval before spending credits. Keep original pending request IDs.\nSave company-motion/CONNECTION-CHECK.md with each actual result or blocker. Keep outreach paused.\nAppend this step, actual artifact, check and next task to company-motion/PROGRESS.md. Show the output. Stop. Next: keep this project and prepare your email before Part 2.",
+          "tools": [
+            "Your saved Part 1 project. Choose later connections before the next session."
+          ],
+          "expected": [
+            "CONNECTION-CHECK.md with ready or blocked email prerequisites."
+          ],
+          "check": [
+            "Own Google profile and calendar reads succeed.",
+            "Actual ZeroBounce credits and paid validation scope are known.",
+            "Current exclusions and permitted countries are ready."
+          ],
+          "fallback": "Without sender authorization, Part 2 can prepare messages. It cannot prove live sending.",
+          "repair_prompt": "Fix exercise p1-before-part2 in this same saved project.\nExpected artifact: company-motion/CONNECTION-CHECK.md with ready or blocked email prerequisites.\nSuccess check: Own Google profile and calendar reads succeed. Actual ZeroBounce credits and paid validation scope are known. Current exclusions and permitted countries are ready.\nRead PREWORK.md and the actual blocked email setup. Fresh private email setup needs init --config once, not bootstrap or configure alone. Identify the exact Google/admin, calendar, validation or exclusion blocker. If a paid lookup may have started, read its original request rather than starting another. Keep live outreach paused.\nUse the saved verified interpreter for commands. Preserve completed files and earlier progress. Rerun the failed check and append its actual result and next task to company-motion/PROGRESS.md. Show the result. Stop. Next: open Part 2 and check your email prerequisites.\nActual error: [paste the error without credentials]",
+          "sources": [
+            {
+              "label": "API guide and portable setup-google contract",
+              "url": "sources/V5-WORKSHOP-SOURCES.md",
+              "date": "October 5, 2026",
+              "scope": "Sign-in and account approval belong to the attendee."
+            },
+            {
+              "label": "Workshop 2 registration",
+              "url": "https://luma.com/jd8tm0ij",
+              "scope": "Read the official event for the confirmed details."
+            },
+            {
+              "label": "Workshop 3 registration",
+              "url": "https://luma.com/wucyo6fw",
+              "scope": "Read the official event for the confirmed details."
+            }
+          ],
+          "notes": "Invite attendees to the next sessions through the official Luma links. Do not invent an event date. This reference screen uses the adjacent lesson’s time. It is not an extra exercise.",
+          "build_step": 0,
+          "prompt_label": "Workshop prompt adapted to your company",
+          "registrations": [
+            {
+              "title": "Workshop 2",
+              "url": "https://luma.com/jd8tm0ij",
+              "qr": "assets/workshop-2-qr.png"
+            },
+            {
+              "title": "Workshop 3",
+              "url": "https://luma.com/wucyo6fw",
+              "qr": "assets/workshop-3-qr.png"
+            }
+          ],
+          "route": "optional",
+          "next_id": null,
+          "next_action": "keep this project and prepare your email before Part 2",
+          "chapter": 5,
+          "chapter_title": "Save the skill. Build page two."
+        }
+      ],
+      "agenda": [
+        {
+          "id": "p1-results",
+          "minutes": 3,
+          "title": "This is how I built Metadata's GTM motion",
+          "outcome": "Run git clone https://github.com/f-o-x11/agentic-gtm-workshop.git. Open the folder in local Codex or Claude Code. Keep the booklet open. Each prompt is embedded."
+        },
+        {
+          "id": "p1-v5-tree",
+          "minutes": 3,
+          "title": "The workflow I run at Metadata",
+          "outcome": "Your agent researches buyers and prepares work. The local program checks the recipient, performs an approved action and records the provider result."
+        },
+        {
+          "id": "p1-about",
+          "minutes": 2,
+          "title": "Hi, I'm Gil.",
+          "outcome": "Software engineer turned VP of Marketing. Running paid campaigns meant repeating the same work across tools. I started Metadata to automate it. Today we’ll build the first piece of your own GTM workflow."
+        },
+        {
+          "id": "p1-real-outputs",
+          "minutes": 4,
+          "title": "Zuora: the page, the email, the gift",
+          "outcome": "Open the real page. Read the email I sent. See how a gift invitation could look."
+        },
+        {
+          "id": "p1-install",
+          "minutes": 12,
+          "title": "Open the cloned folder. Build your company brief.",
+          "outcome": "COMPANY.md, SETUP.md, AUTHORITY.md and AGENTS.md."
+        },
+        {
+          "id": "p1-company",
+          "minutes": 8,
+          "title": "Check your company facts, buyers and offer",
+          "outcome": "company-motion/COMPANY.md with sourced company facts."
+        },
+        {
+          "id": "p1-authority",
+          "minutes": 4,
+          "title": "Check the saved rules. Keep sending paused.",
+          "outcome": "Present, readable AUTHORITY.md and AGENTS.md."
+        },
+        {
+          "id": "p1-one-source",
+          "minutes": 5,
+          "title": "Research your first target company",
+          "outcome": "One dated target brief."
+        },
+        {
+          "id": "p1-target-fit",
+          "minutes": 5,
+          "title": "Save your two target companies",
+          "outcome": "Two reviewed target briefs and company-motion/TARGETS.md."
+        },
+        {
+          "id": "p1-build-page",
+          "minutes": 10,
+          "title": "Build the page for your first target",
+          "outcome": "A local, unpublished HTML page and source notes."
+        },
+        {
+          "id": "p1-page-review",
+          "minutes": 10,
+          "title": "Check every claim. Then check the page layout.",
+          "outcome": "Reviewed page plus company-motion/PAGE-REVIEW.md."
+        },
+        {
+          "id": "p1-save-skill",
+          "minutes": 6,
+          "title": "Save your page-building instructions as a skill",
+          "outcome": "company-motion/skills/account-page/SKILL.md."
+        },
+        {
+          "id": "p1-repeat",
+          "minutes": 8,
+          "title": "Use the skill for your second target",
+          "outcome": "Second reviewed, unpublished page and company-motion/SKILL-TEST.md."
+        },
+        {
+          "id": "p1-break",
+          "minutes": 5,
+          "title": "Save your pages. Take five minutes.",
+          "outcome": "Save both pages. Leave the project open. Return in five minutes."
+        },
+        {
+          "id": "p1-checkpoint",
+          "minutes": 5,
+          "title": "Check the files. Fix anything missing.",
+          "outcome": "PROGRESS.md with actual paths and passed or missing checks."
+        },
+        {
+          "id": "p1-help",
+          "minutes": 20,
+          "title": "Fix a failed check, if one remains",
+          "outcome": "A repaired local check, or confirmation that Part 1 is complete."
+        }
+      ],
+      "chapters": [
+        {
+          "number": 1,
+          "id": "p1-chapter-1",
+          "title": "See Metadata's working examples",
+          "outcome": "See the actual page, email and gift examples.",
+          "slide_ids": [
+            "p1-cover",
+            "p1-results",
+            "p1-v5-tree",
+            "p1-about",
+            "p1-you",
+            "p1-glossary",
+            "p1-real-outputs",
+            "p1-finish"
+          ],
+          "guided_minutes": 12,
+          "help_minutes": 0
+        },
+        {
+          "number": 2,
+          "id": "p1-chapter-2",
+          "title": "Set up your company",
+          "outcome": "COMPANY.md, saved setup and local rules.",
+          "slide_ids": [
+            "p1-install",
+            "p1-company",
+            "p1-authority"
+          ],
+          "guided_minutes": 24,
+          "help_minutes": 0
+        },
+        {
+          "number": 3,
+          "id": "p1-chapter-3",
+          "title": "Choose two target companies",
+          "outcome": "Two target briefs and TARGETS.md.",
+          "slide_ids": [
+            "p1-one-source",
+            "p1-target-fit",
+            "p1-page-example"
+          ],
+          "guided_minutes": 10,
+          "help_minutes": 0
+        },
+        {
+          "number": 4,
+          "id": "p1-chapter-4",
+          "title": "Build and check your first page",
+          "outcome": "First HTML page and PAGE-REVIEW.md.",
+          "slide_ids": [
+            "p1-build-page",
+            "p1-page-review"
+          ],
+          "guided_minutes": 20,
+          "help_minutes": 0
+        },
+        {
+          "number": 5,
+          "id": "p1-chapter-5",
+          "title": "Save the skill. Build page two.",
+          "outcome": "SKILL.md, second page and completed file check.",
+          "slide_ids": [
+            "p1-save-skill",
+            "p1-repeat",
+            "p1-break",
+            "p1-checkpoint",
+            "p1-help",
+            "p1-tool-options",
+            "p1-part2-preview",
+            "p1-part3-preview",
+            "p1-before-part2"
+          ],
+          "guided_minutes": 24,
+          "help_minutes": 20
+        }
+      ],
+      "media_minutes": 10,
+      "media": [
+        {
+          "id": "p1-agency-1",
+          "label": "The Agency · Episode 1",
+          "title": "Credit Announcement Day",
+          "duration_label": "2:40",
+          "video_url": "https://metadata.io/videos/the-agency/s1e1.mp4",
+          "poster": "assets/agency-s1e1.jpg",
+          "source_url": "https://metadata.io/the-agency/episode-1",
+          "note": "A fictional marketing team. The workshop examples and checks use real files.",
+          "before_slide": "p1-glossary",
+          "chapter": 1
+        },
+        {
+          "id": "p1-full-walkthrough",
+          "label": "Full recorded build",
+          "title": "Watch the full Part 1 build",
+          "duration_label": "27:26 at 2×",
+          "video_url": "https://metadata-gtm-workshops.vercel.app/gtm-part1/media/part1-walkthrough-narrated-2x.mp4",
+          "poster": "assets/part1-walkthrough-poster.jpg",
+          "captions_url": "https://metadata-gtm-workshops.vercel.app/gtm-part1/media/part1-walkthrough-narrated-2x.vtt",
+          "source_url": "https://metadata-gtm-workshops.vercel.app/gtm-part1/Recordings.html#full-replay",
+          "note": "The complete 54:51 recording at 2×, with narration in Gil’s AI voice. Pages are local and unpublished. Includes repairs and final checks. Watch before class or use it when you need help.",
+          "before_slide": "p1-glossary",
+          "chapter": 1,
+          "jumps": [
+            [
+              336.5,
+              "Company brief"
+            ],
+            [
+              654.5,
+              "First page"
+            ],
+            [
+              1002.5,
+              "Save the skill"
+            ],
+            [
+              1095,
+              "Use the skill"
+            ],
+            [
+              1359.5,
+              "Final checks"
+            ]
+          ]
+        },
+        {
+          "id": "p1-agency-2",
+          "label": "The Agency · Episode 2",
+          "title": "Budget Flush Day",
+          "duration_label": "2:00",
+          "video_url": "https://metadata.io/videos/the-agency/s1e2.mp4",
+          "poster": "assets/agency-s1e2.jpg",
+          "source_url": "https://metadata.io/the-agency/episode-2",
+          "note": "A fictional marketing team. The workshop examples and checks use real files.",
+          "before_slide": "p1-one-source",
+          "chapter": 3
+        },
+        {
+          "id": "p1-agency-3",
+          "label": "The Agency · Episode 3",
+          "title": "The Retreat",
+          "duration_label": "3:46",
+          "video_url": "https://metadata.io/videos/the-agency/s1e3.mp4",
+          "poster": "assets/agency-s1e3.jpg",
+          "source_url": "https://metadata.io/the-agency/episode-3",
+          "note": "A fictional marketing team. The workshop examples and checks use real files.",
+          "before_slide": "p1-break",
+          "chapter": 5
+        },
+        {
+          "id": "p1-agency-4",
+          "label": "The Agency · Commercial 1",
+          "title": "The Industrialist",
+          "duration_label": "0:35",
+          "video_url": "https://metadata.io/videos/the-agency/ad-industrialist.mp4",
+          "poster": "assets/agency-ad-industrialist.jpg",
+          "source_url": "https://metadata.io/the-agency/ad-the-industrialist",
+          "note": "A fictional marketing team. The workshop examples and checks use real files.",
+          "before_slide": "p1-build-page",
+          "chapter": 4
+        }
+      ]
+    }
+  ],
+  "setup": {
+    "part1": "Codex or Claude Code with local files and web access; company website; buyer segment; offer; two target domains. No API key.",
+    "api_guide": "API-CONNECTIONS.md",
+    "no_key_scope": "You can build and review pages, save a skill, assemble the workflow and prepare messages without keys. Those files do not prove live sending."
+  },
+  "completion": {
+    "required": [
+      "Your company facts and paused operating instructions.",
+      "Two sourced target briefs and two reviewed pages.",
+      "One saved page skill successfully reused.",
+      "A progress record and the exact next setup task."
+    ],
+    "known_limits": [
+      "Local pages are not published pages.",
+      "No email, gift, LinkedIn invitation or advertising is sent in Part 1."
+    ],
+    "scope_note": "Finish the local page play. Keep this project for the next workshop."
+  },
+  "workspace": {
+    "layout": [
+      "agentic-gtm-workshop/code/",
+      "agentic-gtm-workshop/company-motion/",
+      "agentic-gtm-workshop/API-CONNECTIONS.md",
+      "agentic-gtm-workshop/SETUP-SEQUENCE.md"
+    ],
+    "command_folder": "code/",
+    "company_output_folder": "company-motion/",
+    "private_config_and_credentials": "Outside both folders. Use actual absolute paths.",
+    "note": "Run git clone https://github.com/f-o-x11/agentic-gtm-workshop.git once. Open agentic-gtm-workshop in local Codex or Claude Code. Use this same project for every later exercise. Run program commands from code/. Create COMPANY.md before bootstrap. Filled credentials and configuration stay outside this entire repository.",
+    "project_folder": "The cloned agentic-gtm-workshop folder, containing code/, prompts.html and START-HERE.md."
+  },
+  "guided_start": {
+    "slide_id": "p1-install",
+    "prompt_id": "p1-install",
+    "inputs": [
+      "company website",
+      "buyer segment",
+      "offer",
+      "first target domain",
+      "second target domain"
+    ],
+    "first_artifact": "company-motion/COMPANY.md",
+    "bootstrap": "python3 -B gtm.py bootstrap --company-brief ../company-motion/COMPANY.md",
+    "interpreter_receipt": "company-motion/.runtime.json",
+    "next_id": "p1-company",
+    "instruction": "Finish only the shown step. Show the actual output and check. Stop, then name the next exercise.",
+    "clone_command": "git clone https://github.com/f-o-x11/agentic-gtm-workshop.git"
+  },
+  "release": "part1_v10_final",
+  "project_folder": "Open the cloned workshop folder in local Codex or Claude Code. Keep the participant booklet open beside Zoom."
+}

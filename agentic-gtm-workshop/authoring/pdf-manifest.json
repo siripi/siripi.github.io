@@ -1,0 +1,22 @@
+{
+  "parts": {
+    "part-1": 46
+  },
+  "all_pdfs": [
+    {
+      "file": "API-Setup-Guide.pdf",
+      "pages": 2,
+      "bytes": 30004
+    },
+    {
+      "file": "Part-1-Presentation.pdf",
+      "pages": 46,
+      "bytes": 4436066
+    },
+    {
+      "file": "Participant-Booklet.pdf",
+      "pages": 15,
+      "bytes": 3114946
+    }
+  ]
+}
